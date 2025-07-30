@@ -1,8 +1,10 @@
 @charset "UTF-8";
-
+* {
+    box-sizing: border-box;
+}
 body {
     font: normal 1.3em 'arial';
-    background: #3838eb;
+    background: #6f6fcf;
 }
 
 header{
@@ -14,10 +16,23 @@ section {
     border-radius: 10px;
     padding: 10px;
     margin: auto;
-    width: 500px;
+    width: 450px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
+}
+img#foto {
+    border-radius: 55%;
+}
+.botao {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    padding: 5px;
+}
+.botao:hover {
+    background-color: #a7a7a7;
+    color: black;
 }
 
 footer {
     text-align: center;
+    font-style: italic;
 }
