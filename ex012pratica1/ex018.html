@@ -6,15 +6,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
-<body onload="carregar()">
+<body>
     <header>
-        
+        <h1>Vamos Contar</h1>
     </header>
     <section>
-        <div id="">
-            
+        <div id="dados">
+            <p>Inicio:
+                <input type="number" name="Inicio" id="ini">
+
+
+            </p>
+            <p>Fim: 
+                <input type="number" name="fim" id="ifim">
+            </p>
+            <p>Passo:
+                <input type="number" name="pass" id="ipass">
+            </p>
+            <p><input type="button" value="Contar" onclick="contar()"></p>
         </div>
-        <div id="">  
+        <div id="res">  
            
         </div>
     </section>
