@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*
+cores
+cor 1: #6A7A7E
+cor 2: #561D0F
+cor 3: #192E36
+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font: normal 1.3em 'arial';
+    background: #3838eb;
+}
+
+header{
+    text-align: center;
+}
+
+section {
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
+}
+
+div {
+    padding: 8px;
+}
+
+img.redonda{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
